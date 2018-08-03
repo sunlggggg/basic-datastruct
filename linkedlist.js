@@ -41,7 +41,7 @@ function addTwoList(l1, l2 ) {
         num2 += cur.val*base; 
     }
     sum = num1 + num2 ; 
-    //创建链表
+    // 创建链表
     return createLinkedlist(sum);
 }
 main = (arr1, arr2 )=>{
